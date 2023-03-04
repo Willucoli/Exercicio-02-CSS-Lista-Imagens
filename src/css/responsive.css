@@ -1,0 +1,23 @@
+@media(max-width:1370px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 1px;
+        margin: 30px 0;
+    }
+    .rome p.nome-arte,.boat p.nome-arte,.sand p.nome-arte,.starry p.nome-arte{
+        padding: 0px 0px 5px 26px;
+    }
+    .rome p.nome-artista,.boat p.nome-artista,.sand p.nome-artista,.starry p.nome-artista{
+        padding: 0px 0px 35px 26px;
+    }
+
+}
+
+@media(max-width:250px){
+    .rome,.boat,.sand,.starry{
+        height: 100vh;
+        width: 100vw;
+    }
+}

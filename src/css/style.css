@@ -1,0 +1,53 @@
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.main div{
+    padding: 10px;
+}
+
+.rome p.nome-arte,.boat p.nome-arte,.sand p.nome-arte,.starry p.nome-arte{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 0px 0px 5px 26px;
+}
+.rome p.nome-artista,.boat p.nome-artista,.sand p.nome-artista,.starry p.nome-artista{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 300;
+    padding: 0px 0px 60px 26px;
+}
+
+.rome,.boat,.sand,.starry{
+    height: 431px;
+    width: 335px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.rome{
+    background: url(../imagens/rome.png) no-repeat ;
+}
+.boat{
+    background: url(../imagens/boat.png) no-repeat ;
+    
+}
+.sand{
+    background: url(../imagens/sand-and-sea.png) no-repeat ;
+   
+}
+.starry{
+    background: url(../imagens/starry-night.png) no-repeat ;
+   
+}
+
